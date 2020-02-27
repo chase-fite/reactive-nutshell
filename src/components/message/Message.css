@@ -15,7 +15,7 @@
 }
 
 .messageList {
-    margin-top: 124px;
+    margin-top: 200px !important;
     width: 100%;
     z-index: 1;
 }

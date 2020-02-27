@@ -20,7 +20,7 @@ class FriendList extends Component {
         <FriendSearch addFriend={this.props.addFriend} displayNewAlert={this.props.displayNewAlert} {...this.props} />
         </div>
           <div className="friends-flex">
-        <ListGroup>
+        <ListGroup className="list-group">
           {this.props.friends.map(friend => {
             return (
               <FriendCard
